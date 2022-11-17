@@ -1,27 +1,52 @@
 {
-  "name": "zikmes-testtask",
+  "name": "OnlineShopGoods",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "build"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-scss -w scss/ -o css/",
+    "build": "babel src/js -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nadia920/ZIKMES-TestTask.git"
+    "url": "git+https://github.com/Nadia920/OnlineShopGoods.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nadia920/ZIKMES-TestTask/issues"
+    "url": "https://github.com/Nadia920/OnlineShopGoods/issues"
   },
-  "homepage": "https://github.com/Nadia920/ZIKMES-TestTask#readme",
+  "homepage": "https://github.com/Nadia920/OnlineShopGoods#readme",
   "dependencies": {
+    "@babel/runtime": "^7.20.1",
+    "autoprefixer": "^10.4.13",
+    "babel": "^6.23.0",
     "grunt-autoprefixer": "^3.0.4",
-    "nodemon": "^2.0.20"
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-scss": "^1.4.0",
+    "gulp-task": "^2.1.0",
+    "node-scss": "^7.0.3",
+    "nodemon": "^2.0.20",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.56.1",
+    "save-dev": "^0.0.1-security",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^8.0.0"
   }
 }
