@@ -1,4 +1,3 @@
-
 $(document).ajaxError(function(e, jqxhr, settings, exception) {
     if (jqxhr.readyState == 0 || jqxhr.status == 0) {
         alert("Произошла ошибка");
@@ -8,10 +7,10 @@ $(document).ready(function () {
     $("#form").submit(function (e) { // Устанавливаем событие отправки для формы с id=form
         e.preventDefault();
         let form_data = $(this).serialize(); // Собираем все данные из формы
-
         $.ajax({
             type: "POST", // Метод отправки
             url: "http://localhost/OnlineShopGoods/src/php/telegram.php", // Путь до php файла отправителя
+            contentType: 'charset=utf-8',
             data: form_data,
             success: function (response) {
                 document.getElementById('operationStatus').style.display='inline-block';
