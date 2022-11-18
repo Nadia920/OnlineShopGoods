@@ -24,6 +24,7 @@ const bundleJs = () => {
 }
 const devWatch = () => {
     watch('./src/scss-css/scss/*.scss', bundleSass);
+    watch('./src/js/*.js', bundleJs);
 }
 exports.default = bundleSass;
 exports.bundlejs = bundleJs;

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/build/telegramForm.js" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/dist/telegramform.js" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/js/telegramform.js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/js/telegramForm.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/php/telegram.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/scss-css/css/adaptiv.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/scss-css/css/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/scss-css/scss/adaptiv.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/scss-css/scss/style.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webpack.config.js" charset="UTF-8" />
   </component>
 </project>

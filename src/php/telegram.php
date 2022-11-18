@@ -3,8 +3,6 @@
 
 $number = $_POST['number'];
 $theme = $_POST['theme'];
-/*$number = 7786;
-$theme = "ssss";*/
 
  $token = '5722517899:AAHQlRphXL6M24ur9AOdmHh3M1H28D6W67E';
 

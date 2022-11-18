@@ -10,19 +10,16 @@ $font-weight:bold;
 $letter-spacing:0.05em;
 $border: 5px solid #ffffff;
 @media screen and (max-device-width: 1200px){
-
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-
     body{
         height: 100vh;
         width: 100vw;
-        background-image: url(../../resources/shop.jpg);
+        background-image: url(../../resources/img/shop.jpg) ;
     }
-
     .parent {
         height: 60%;
         width: 100%;
