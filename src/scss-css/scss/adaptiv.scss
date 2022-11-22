@@ -48,6 +48,7 @@ $border: 5px solid #ffffff;
         text-align: left;
         position:$position;
         border: $border;
+        outline: none;
         &:hover {
             opacity:$opacity;
         }
